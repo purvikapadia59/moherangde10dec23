@@ -1,0 +1,26 @@
+<html>
+<head>
+ 	<title>Color App by PK</title>
+	<style>
+    		* {font-size: 40px;}
+	</style>
+	<script>
+    		function change()
+		{
+			let colors=["red","blue","pink","green","orange","azure","black","yellow","purple","brown"];
+			let r=parseInt(Math.random()*colors.length);
+			document.body.style.backgroundColor=colors[r];
+		}		
+	</script>
+</head>
+<body>
+<center>
+	<h1>Mohe Rang De 2</h1>
+    	<script>
+		change()
+		setInterval(change,5000);
+	</script>
+</center>
+</body>
+
+</html>
